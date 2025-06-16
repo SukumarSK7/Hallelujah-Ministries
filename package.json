@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "dev": "node server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "echo 'Static files are ready for deployment. No build process needed.'"
   },
   "keywords": [],
   "author": "",
