@@ -1,12 +1,13 @@
 {
   "name": "hallelujah-ministries",
   "version": "1.0.0",
-  "description": "Hallelujah Ministries Website",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "build": "mkdir -p dist && cp index.html dist/",
-    "dev": "python3 -m http.server 3000"
+    "dev": "node server.js",
+    "start": "node server.js"
   },
-  "keywords": ["ministry", "church", "website"],
-  "author": "Rev. A. Yesudasu",
-  "license": "MIT"
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
